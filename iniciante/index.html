@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciante - Tênis</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 10px;
+            text-align: center;
+            background: white;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+
+    <img id="imagem" alt="Classificação - Iniciante">
+
+    <script>
+        document.getElementById("imagem").src =
+            "../iniciante.png?v=" + Date.now();
+    </script>
+
+</body>
+</html>
